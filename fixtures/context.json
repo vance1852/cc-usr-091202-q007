@@ -1,7 +1,11 @@
 {
   "domain": "公交失物认领",
+  "routes": [
+    {"tripId": "BUS-18-220", "route": "18路", "terminal": "东城车队"},
+    {"tripId": "BUS-42-105", "route": "42路", "terminal": "滨江车队"}
+  ],
   "records": [
-    {"window": "综合受理一号窗", "service": "社保转移", "date": "2026-10-08", "capacity": 18},
-    {"window": "综合受理二号窗", "service": "居住证签注", "date": "2026-10-08", "capacity": 12}
+    {"foundId": "L-501", "tripId": "BUS-18-220", "itemType": "手机", "foundAt": "2026-10-07T22:10:00+08:00"},
+    {"foundId": "L-502", "tripId": "BUS-42-105", "itemType": "证件袋", "foundAt": "2026-10-08T06:35:00+08:00"}
   ]
 }
